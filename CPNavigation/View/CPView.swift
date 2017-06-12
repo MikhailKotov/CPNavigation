@@ -194,9 +194,10 @@ private extension UIColor{
 // MARK: ScrollViewDelegate
 extension CPView: UIScrollViewDelegate {
     public func scrollViewDidScroll(_ scrollView: UIScrollView) {
-        let page = scrollView.contentOffset.x / scrollView.frame.size.width
+        let pageCount = CGFloat(self.viewControllers!.count)
+        let page = scrollView.contentOffset.x * pageCount / scrollView.contentSize.width
         updateBackgroundForOffset(scrollView.contentOffset.x)
-        self.selectedIndex = Int(min(CGFloat(self.viewControllers!.count)-1,
+        self.selectedIndex = Int(min(pageCount-1,
                                      max(0.0, page + 0.5)))
         self.delegate?.cpView(self, didUpdatePageIndex: self.selectedIndex)
     }
@@ -213,16 +214,18 @@ extension CPView: UIScrollViewDelegate {
     func rgbColorForOffset(_ pos : CGFloat) -> (bottom:UIColor, center:UIColor, top:UIColor) {
         var position: CGFloat = 0
         var page = 0
-        let w = scrollView.frame.size.width
+        let pageCount = self.viewControllers!.count
         let offsetX = scrollView.contentOffset.x
-        if w != 0 {
-            position = offsetX.truncatingRemainder(dividingBy: w) / w
-            page     = Int(offsetX / w)
+        let contentW = scrollView.contentSize.width
+        if contentW != 0 {
+            let pageF = offsetX * CGFloat(pageCount) / contentW
+            position = pageF.truncatingRemainder(dividingBy: 1.0)
+            page     = Int(pageF)
         }
         // we should get colors from VC (Page). If selected page is last then next page color
         // we should get from first VC
         let col1 = (self.viewControllers![page] as! CPViewGradientBackground).cpViewBackground(self)
-        if page + 1 >= self.viewControllers!.count {
+        if page + 1 >= pageCount {
             page = -1
         }
         let col2 = (self.viewControllers![page+1] as! CPViewGradientBackground).cpViewBackground(self)
