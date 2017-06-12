@@ -8,20 +8,34 @@
 
 /* Begin PBXBuildFile section */
 		FAF46CEF1EEEB2FC00E0D235 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF46CEE1EEEB2FC00E0D235 /* AppDelegate.swift */; };
-		FAF46CF11EEEB2FC00E0D235 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF46CF01EEEB2FC00E0D235 /* ViewController.swift */; };
-		FAF46CF41EEEB2FC00E0D235 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAF46CF21EEEB2FC00E0D235 /* Main.storyboard */; };
 		FAF46CF61EEEB2FC00E0D235 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAF46CF51EEEB2FC00E0D235 /* Assets.xcassets */; };
-		FAF46CF91EEEB2FC00E0D235 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAF46CF71EEEB2FC00E0D235 /* LaunchScreen.storyboard */; };
+		FAF46D041EEEB5FE00E0D235 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAF46D021EEEB5FE00E0D235 /* Main.storyboard */; };
+		FAF46D051EEEB5FE00E0D235 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAF46D031EEEB5FE00E0D235 /* LaunchScreen.storyboard */; };
+		FAF46D091EEEB67900E0D235 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF46D081EEEB67900E0D235 /* MainViewController.swift */; };
+		FAF46D0B1EEEB6AB00E0D235 /* First.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAF46D0A1EEEB6AB00E0D235 /* First.storyboard */; };
+		FAF46D0D1EEEB6BB00E0D235 /* Second.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAF46D0C1EEEB6BB00E0D235 /* Second.storyboard */; };
+		FAF46D0F1EEEB6C800E0D235 /* Third.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAF46D0E1EEEB6C800E0D235 /* Third.storyboard */; };
+		FAF46D151EEEC55200E0D235 /* CPView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF46D141EEEC55200E0D235 /* CPView.swift */; };
+		FAF46D171EEEE6E800E0D235 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF46D161EEEE6E800E0D235 /* FirstViewController.swift */; };
+		FAF46D191EEEE6FB00E0D235 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF46D181EEEE6FB00E0D235 /* SecondViewController.swift */; };
+		FAF46D1B1EEEE70D00E0D235 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF46D1A1EEEE70D00E0D235 /* ThirdViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		FAF46CEB1EEEB2FC00E0D235 /* CPNavigation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CPNavigation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAF46CEE1EEEB2FC00E0D235 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FAF46CF01EEEB2FC00E0D235 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		FAF46CF31EEEB2FC00E0D235 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FAF46CF51EEEB2FC00E0D235 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		FAF46CF81EEEB2FC00E0D235 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FAF46CFA1EEEB2FC00E0D235 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAF46D021EEEB5FE00E0D235 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		FAF46D031EEEB5FE00E0D235 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FAF46D081EEEB67900E0D235 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		FAF46D0A1EEEB6AB00E0D235 /* First.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = First.storyboard; sourceTree = "<group>"; };
+		FAF46D0C1EEEB6BB00E0D235 /* Second.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Second.storyboard; sourceTree = "<group>"; };
+		FAF46D0E1EEEB6C800E0D235 /* Third.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Third.storyboard; sourceTree = "<group>"; };
+		FAF46D141EEEC55200E0D235 /* CPView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CPView.swift; sourceTree = "<group>"; };
+		FAF46D161EEEE6E800E0D235 /* FirstViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		FAF46D181EEEE6FB00E0D235 /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		FAF46D1A1EEEE70D00E0D235 /* ThirdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +68,46 @@
 		FAF46CED1EEEB2FC00E0D235 /* CPNavigation */ = {
 			isa = PBXGroup;
 			children = (
+				FAF46D131EEEC51100E0D235 /* Views */,
+				FAF46D011EEEB51000E0D235 /* Storyboards */,
+				FAF46D001EEEB47A00E0D235 /* ViewControllers */,
 				FAF46CEE1EEEB2FC00E0D235 /* AppDelegate.swift */,
-				FAF46CF01EEEB2FC00E0D235 /* ViewController.swift */,
-				FAF46CF21EEEB2FC00E0D235 /* Main.storyboard */,
 				FAF46CF51EEEB2FC00E0D235 /* Assets.xcassets */,
-				FAF46CF71EEEB2FC00E0D235 /* LaunchScreen.storyboard */,
 				FAF46CFA1EEEB2FC00E0D235 /* Info.plist */,
 			);
 			path = CPNavigation;
+			sourceTree = "<group>";
+		};
+		FAF46D001EEEB47A00E0D235 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				FAF46D081EEEB67900E0D235 /* MainViewController.swift */,
+				FAF46D161EEEE6E800E0D235 /* FirstViewController.swift */,
+				FAF46D181EEEE6FB00E0D235 /* SecondViewController.swift */,
+				FAF46D1A1EEEE70D00E0D235 /* ThirdViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		FAF46D011EEEB51000E0D235 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				FAF46D021EEEB5FE00E0D235 /* Main.storyboard */,
+				FAF46D031EEEB5FE00E0D235 /* LaunchScreen.storyboard */,
+				FAF46D0A1EEEB6AB00E0D235 /* First.storyboard */,
+				FAF46D0C1EEEB6BB00E0D235 /* Second.storyboard */,
+				FAF46D0E1EEEB6C800E0D235 /* Third.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		FAF46D131EEEC51100E0D235 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FAF46D141EEEC55200E0D235 /* CPView.swift */,
+			);
+			name = Views;
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -92,7 +138,7 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
 				LastUpgradeCheck = 0830;
-				ORGANIZATIONNAME = none;
+				ORGANIZATIONNAME = Mikhail_Kotov;
 				TargetAttributes = {
 					FAF46CEA1EEEB2FC00E0D235 = {
 						CreatedOnToolsVersion = 8.3.1;
@@ -106,7 +152,6 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
-				en,
 				Base,
 			);
 			mainGroup = FAF46CE21EEEB2FC00E0D235;
@@ -124,9 +169,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FAF46CF91EEEB2FC00E0D235 /* LaunchScreen.storyboard in Resources */,
+				FAF46D051EEEB5FE00E0D235 /* LaunchScreen.storyboard in Resources */,
 				FAF46CF61EEEB2FC00E0D235 /* Assets.xcassets in Resources */,
-				FAF46CF41EEEB2FC00E0D235 /* Main.storyboard in Resources */,
+				FAF46D041EEEB5FE00E0D235 /* Main.storyboard in Resources */,
+				FAF46D0D1EEEB6BB00E0D235 /* Second.storyboard in Resources */,
+				FAF46D0F1EEEB6C800E0D235 /* Third.storyboard in Resources */,
+				FAF46D0B1EEEB6AB00E0D235 /* First.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,31 +185,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FAF46CF11EEEB2FC00E0D235 /* ViewController.swift in Sources */,
+				FAF46D091EEEB67900E0D235 /* MainViewController.swift in Sources */,
+				FAF46D171EEEE6E800E0D235 /* FirstViewController.swift in Sources */,
+				FAF46D191EEEE6FB00E0D235 /* SecondViewController.swift in Sources */,
 				FAF46CEF1EEEB2FC00E0D235 /* AppDelegate.swift in Sources */,
+				FAF46D1B1EEEE70D00E0D235 /* ThirdViewController.swift in Sources */,
+				FAF46D151EEEC55200E0D235 /* CPView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		FAF46CF21EEEB2FC00E0D235 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				FAF46CF31EEEB2FC00E0D235 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		FAF46CF71EEEB2FC00E0D235 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				FAF46CF81EEEB2FC00E0D235 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		FAF46CFB1EEEB2FC00E0D235 /* Debug */ = {
@@ -265,6 +298,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = VM4K58RG3Z;
 				INFOPLIST_FILE = CPNavigation/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.miko1712.CPNavigation;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -278,6 +312,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = VM4K58RG3Z;
 				INFOPLIST_FILE = CPNavigation/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.miko1712.CPNavigation;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -304,6 +339,7 @@
 				FAF46CFF1EEEB2FC00E0D235 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

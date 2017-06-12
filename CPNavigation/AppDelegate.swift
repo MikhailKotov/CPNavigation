@@ -3,7 +3,7 @@
 //  CPNavigation
 //
 //  Created by Mikhail Kotov on 6/12/17.
-//  Copyright © 2017 none. All rights reserved.
+//  Copyright © 2017 Mikhail_Kotov. All rights reserved.
 //
 
 import UIKit

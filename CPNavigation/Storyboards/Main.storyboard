@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12118" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="Wpx-yq-lzy">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Main View Controller-->
+        <scene sceneID="saf-jg-gID">
+            <objects>
+                <viewController id="Wpx-yq-lzy" customClass="MainViewController" customModule="CPNavigation" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="iev-kv-Efn"/>
+                        <viewControllerLayoutGuide type="bottom" id="zyo-JF-OdZ"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="PjW-w0-GOQ">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="gqb-xj-dy0">
+                                <rect key="frame" x="168" y="565" width="39" height="37"/>
+                                <color key="pageIndicatorTintColor" red="1" green="1" blue="0.99983723960000004" alpha="0.5" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="currentPageIndicatorTintColor" red="1" green="1" blue="1" alpha="0.85097388699999998" colorSpace="custom" customColorSpace="sRGB"/>
+                            </pageControl>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="li4-gS-6b8" customClass="CPView" customModule="CPNavigation" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <gestureRecognizers/>
+                        <constraints>
+                            <constraint firstItem="li4-gS-6b8" firstAttribute="leading" secondItem="PjW-w0-GOQ" secondAttribute="leadingMargin" constant="-16" id="3UL-5Z-Qcc"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="li4-gS-6b8" secondAttribute="trailing" constant="-16" id="71M-JT-L8Q"/>
+                            <constraint firstItem="li4-gS-6b8" firstAttribute="top" secondItem="iev-kv-Efn" secondAttribute="bottom" constant="-20" id="TCL-Tl-ocG"/>
+                            <constraint firstItem="zyo-JF-OdZ" firstAttribute="top" secondItem="gqb-xj-dy0" secondAttribute="bottom" constant="65" id="dfQ-2B-8JY"/>
+                            <constraint firstItem="zyo-JF-OdZ" firstAttribute="top" secondItem="li4-gS-6b8" secondAttribute="bottom" id="s2w-90-CQY"/>
+                            <constraint firstItem="gqb-xj-dy0" firstAttribute="centerX" secondItem="PjW-w0-GOQ" secondAttribute="centerX" id="vhi-uy-kaY"/>
+                        </constraints>
+                    </view>
+                    <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="lightContent"/>
+                    <nil key="simulatedTopBarMetrics"/>
+                    <connections>
+                        <outlet property="cpView" destination="li4-gS-6b8" id="jrl-oL-4A1"/>
+                        <outlet property="pageControl" destination="gqb-xj-dy0" id="Qvw-iH-B61"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="OfZ-eh-RYi" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2260" y="-27.436281859070466"/>
+        </scene>
+    </scenes>
+</document>
